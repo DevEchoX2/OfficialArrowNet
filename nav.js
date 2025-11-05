@@ -506,12 +506,12 @@ nav .system-status .network-section i {
         </div>
 
         <div class="bubble links">
-          <a href="main.html"><i class="fas fa-house"></i> Home</a>
-          <a href="g.html"><i class="fas fa-gamepad"></i> Games</a>
-          <a href="ai.html"><i class="fas fa-robot"></i> AI</a>
-          <a href="vm.html"><i class="fas fa-desktop"></i> VM's</a>
-          <a href="projects.html"><i class="fas fa-lightbulb"></i> Projects</a>
-          <div class="more">
+           <div class="icon active" title="Home"><i data-lucide="home"></i><span class="label">Home</span></div>
+      <div class="icon" title="AI"><i data-lucide="bot"></i><span class="label">ArrowAI</span></div>
+      <div class="icon" title="Games"><i data-lucide="gamepad"></i><span class="label">Games</span></div>
+      <div class="icon" title="Reading"><i data-lucide="book-open"></i><span class="label">Reading</span></div>
+      <div class="icon" title="Chat"><i data-lucide="message-circle"></i><span class="label">Chat</span></div>
+      <div class="icon" title="Browser"><i data-lucide="monitor"></i><span class="label">Browser</span></div>
             <div class="hamburger"><i class="fas fa-bars"></i> More</div>
           </div>
         </div>
